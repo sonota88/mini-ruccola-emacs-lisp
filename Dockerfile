@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -11,6 +11,8 @@ RUN apt-get update \
 
 ARG USER
 ARG GROUP
+
+RUN userdel -r ubuntu
 
 RUN groupadd ${USER} \
   && useradd ${USER} -g ${GROUP} -m

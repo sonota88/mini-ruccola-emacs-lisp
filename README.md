@@ -4,7 +4,7 @@ Emacs Lisp port of [Mini Ruccola (vm2gol-v2)](https://github.com/sonota88/vm2gol
 
 ```
   $ emacs --version | head -1
-GNU Emacs 27.1
+GNU Emacs 29.3
 ```
 
 ```
