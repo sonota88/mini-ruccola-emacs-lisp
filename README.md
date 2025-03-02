@@ -1,5 +1,8 @@
 Emacs Lisp port of [Mini Ruccola (vm2gol-v2)](https://github.com/sonota88/vm2gol-v2) compiler
 
+[Emacs Lispでシンプルな自作言語のコンパイラを書いた](https://qiita.com/sonota88/items/a8b612e75b8f13d55772)
+
+
 ---
 
 ```
@@ -16,15 +19,6 @@ cd mini-ruccola-emacs-lisp
 ```
 
 ```
-  $ LANG=C wc -l mrcl_{lexer,parser,codegen}.el lib/*.el
-   57 mrcl_lexer.el
-  269 mrcl_parser.el
-  257 mrcl_codegen.el
-   43 lib/json.el
-   60 lib/utils.el
-  686 total
-
-  # main part
   $ LANG=C wc -l mrcl_{lexer,parser,codegen}.el
    57 mrcl_lexer.el
   269 mrcl_parser.el
